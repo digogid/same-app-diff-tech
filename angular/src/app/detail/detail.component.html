@@ -1,0 +1,7 @@
+<section>
+  <button (click)="goBack()">Go Back</button>
+  <h2>{{ book.title }}</h2>
+  <p>{{ book.authors.join(", ") }}</p>
+  <img src={{book.imageLinks.thumbnail}} alt />
+  <p [innerHTML]=book.description></p>
+</section>
